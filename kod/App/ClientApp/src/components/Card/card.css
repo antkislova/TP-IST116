@@ -1,0 +1,47 @@
+.cardContainer {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    min-width: 300px;
+    min-height: 350px;
+    margin: 5px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.card {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(-100px);
+    transform: translateZ(-100px);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.979);
+
+}
+
+.card:hover {
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+    box-shadow: 0 14px 50px -4px rgba(0, 0, 0, 0.15);
+}
+
+.card .img { 
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+}
+
+.title-wrap {
+    margin-top: 10px;
+}
+
+.title {
+    font-family: 'Neucha', cursive;
+    color: black;
+}

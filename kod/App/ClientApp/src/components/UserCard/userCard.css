@@ -1,0 +1,29 @@
+.wrap {
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin: 3px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.wrap:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+
+.name {
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: default;
+}

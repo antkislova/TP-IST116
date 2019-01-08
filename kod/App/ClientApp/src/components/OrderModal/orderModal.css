@@ -1,0 +1,13 @@
+.modal-window {
+    min-width: 350px;
+}
+
+.h {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+ }
